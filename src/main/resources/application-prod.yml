@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.107.229.223:3306
+    username: zaki
+    password: zk20030425
+  # session 失效时间
+  session:
+    timeout: 86400
